@@ -1,0 +1,23 @@
+INSERT INTO questions 
+(subject, question_text, option_a, option_b, option_c, option_d, correct_option, created_at)
+VALUES
+('Java', 'Which keyword is used to inherit a class in Java?', 'super', 'extends', 'implements', 'import', 'B', NOW()),
+('Java', 'Which method is the entry point of a Java application?', 'start(String[] args)', 'main(String[] args)', 'init()', 'run()', 'B', NOW()),
+('Java', 'Which of these is not a Java access modifier?', 'private', 'package', 'protected', 'public', 'B', NOW()),
+('Java', 'What is the size of an int in Java (in bits)?', '32', '64', 'Depends on platform', '16', 'A', NOW()),
+('Java', 'Which keyword is used to prevent method overriding?', 'final', 'static', 'native', 'synchronized', 'A', NOW()),
+('Java', 'Which collection allows duplicate elements and maintains insertion order?', 'HashSet', 'TreeSet', 'ArrayList', 'PriorityQueue', 'C', NOW()),
+('Java', 'Which interface represents a key-value mapping in Java?', 'Map', 'Set', 'Queue', 'List', 'A', NOW()),
+('Java', 'Which exception is thrown when an array index is out of bounds?', 'NullPointerException', 'IndexOutOfBoundsException', 'IllegalArgumentException', 'ArrayStoreException', 'B', NOW()),
+('Java', 'Which keyword declares a constant?', 'static final', 'final static', 'immutable', 'constant', 'B', NOW()),
+('Java', 'Which of these is true about interfaces in Java 8?', 'Interfaces cannot have methods', 'Interfaces can have default methods', 'Interfaces can have instance fields', 'Interfaces can be instantiated', 'B', NOW()),
+('Java', 'Which package contains the Collections framework?', 'java.io', 'java.util', 'java.net', 'java.lang', 'B', NOW()),
+('Java', 'Which class is the superclass of all classes in Java?', 'Object', 'Class', 'Root', 'Base', 'A', NOW()),
+('Java', 'Which operator compares object references (not values)?', 'equals()', '==', 'compareTo()', 'is()', 'B', NOW()),
+('Java', 'Which method is used to start a thread?', 'run()', 'start()', 'init()', 'execute()', 'B', NOW()),
+('Java', 'What does JVM stand for?', 'Java Virtual Machine', 'Java Variable Manager', 'Java Visual Machine', 'Joint Virtual Machine', 'A', NOW()),
+('Java', 'Which collection is synchronized by default?', 'ArrayList', 'HashMap', 'Vector', 'HashSet', 'C', NOW()),
+('Java', 'Which keyword is used to handle exceptions?', 'try', 'catch', 'finally', 'throw', 'B', NOW()),
+('Java', 'Which class is used to read bytes from a file?', 'FileReader', 'FileInputStream', 'BufferedReader', 'PrintWriter', 'B', NOW()),
+('Java', 'Which is a marker interface (has no methods)?', 'Serializable', 'Comparable', 'Iterable', 'Callable', 'A', NOW()),
+('Java', 'What is autoboxing?', 'Converting primitive to wrapper automatically', 'Converting wrapper to primitive automatically', 'Method overloading', 'Automatic garbage collection', 'A', NOW());
